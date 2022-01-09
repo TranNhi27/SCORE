@@ -153,7 +153,8 @@ goloop rpc --uri http://127.0.0.1:9082/api/v3 sendtx call --to cx7d16effa95bc8de
   --key_store ./Nhi.json --key_password nhi123456 \
   --nid 0x3 --step_limit 2000000000
 
-0x60095598a8046347c68975c4527d7f7f54a7c99b3a1f7fd7ef6f471023c66bf0
+The third time:
+txresult: 0x60095598a8046347c68975c4527d7f7f54a7c99b3a1f7fd7ef6f471023c66bf0
 
 goloop rpc --uri http://127.0.0.1:9082/api/v3 txresult 0x60095598a8046347c68975c4527d7f7f54a7c99b3a1f7fd7ef6f471023c66bf0
 {
@@ -180,7 +181,7 @@ goloop rpc --uri http://127.0.0.1:9082/api/v3 txresult 0x60095598a8046347c68975c
   "txHash": "0x60095598a8046347c68975c4527d7f7f54a7c99b3a1f7fd7ef6f471023c66bf0"
 }
 ```
-=> 0x3 is 3 times presenting in class => student can withdral when the course finish
+=> 0x3 is 3 times presenting in class => student can withdraw when the course finish
 
 ## Student withdraw tuition after the course
 ```
