@@ -1,0 +1,22 @@
+{
+    "address": "hx8efead2758636fe48d7a09051214e1361c312092",
+    "id": "d6212c25-e071-43c9-8fee-c70fe7ed18ff",
+    "version": 3,
+    "coinType": "icx",
+    "crypto": {
+        "cipher": "aes-128-ctr",
+        "cipherparams": {
+            "iv": "486258fd4830aae580f4e44b72ca2137"
+        },
+        "ciphertext": "8adf5eac4a7e87f30e465bfa4329bd63cf3028f7b36e5cc51d6c74ebe05df2fc",
+        "kdf": "scrypt",
+        "kdfparams": {
+            "dklen": 32,
+            "n": 65536,
+            "r": 8,
+            "p": 1,
+            "salt": "9d90b2b8ba658598"
+        },
+        "mac": "e9e17465a8b7398e8d9244c25b70238b6c95365bf0d182e039e03e8477769dca"
+    }
+}

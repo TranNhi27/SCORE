@@ -1,0 +1,8 @@
+rootProject.name = 'Devera-sample-score'
+include (
+    'irc2',
+    'sampleContract',
+    'crowdsale',
+    'testinteg',
+    'deveracourse'
+    )
