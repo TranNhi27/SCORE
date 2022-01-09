@@ -61,7 +61,7 @@ Succeeded to deploy: 0x0de531f490f7f9d0f9e2963f74a05cc5258f2ab7cb61aec2e0558fe32
 SCORE address: cx7d16effa95bc8de095499c06962864d3f05dca5d
 
 ```
-## iconFoundation send 10ICX to active the course
+## iconFoundation send 10 ICX to active the course
 SCORE Address:cx7d16effa95bc8de095499c06962864d3f05dca5d
 ```
 goloop rpc --uri http://127.0.0.1:9082/api/v3 sendtx transfer --to cxe8ef69379e2b2c63a72ded5cc9baf6f1d1d37ebb --value 10000000000000000000 --key_store ./godWallet.json --key_password gochain --nid 0x3 --step_limit 1000000000
@@ -93,7 +93,7 @@ goloop rpc --uri http://127.0.0.1:9082/api/v3 txresult 0xca560cafa8d1d95d4428cf5
   "txHash": "0xca560cafa8d1d95d4428cf57c39c783e9bd5e85257ad88779cb8d64878dc336c"
 }
 ```
-## Transfer 100ICX for: 2 students and teacher
+## Transfer 100 ICX to: 2 students and teacher
 these ICX will be used for transfering tuition fee and paying transaction fund
 
 ```
@@ -104,7 +104,7 @@ goloop rpc --uri http://127.0.0.1:9082/api/v3 sendtx transfer --to hx1709cdb7da0
 goloop rpc --uri http://127.0.0.1:9082/api/v3 sendtx transfer --to hx8efead2758636fe48d7a09051214e1361c312092 --value 100000000000000000000 --key_store godWallet.json --key_password gochain --nid 0x3 --step_limit 1000000
 ```
 
-## 2 students transfer 1ICX to register the course
+## 2 students transfer 1 ICX to register the course
 ```
 goloop rpc --uri http://127.0.0.1:9082/api/v3 sendtx transfer --to cx7d16effa95bc8de095499c06962864d3f05dca5d --value 1000000000000000000 --key_store ./Nhi.json --key_password nhi123456 --nid 0x3 --step_limit 1000000000
 0x0fdff57a008f5e1ffdb0ca2d3435d895239f7b867180061f69a119a6b75bffe0
@@ -136,7 +136,7 @@ goloop rpc --uri http://127.0.0.1:9082/api/v3 txresult 0x0fdff57a008f5e1ffdb0ca2
 
 ```
 
-the other student send 1ICX to register the course
+the other student send 1 ICX to register the course
 ```
 goloop rpc --uri http://127.0.0.1:9082/api/v3 sendtx transfer --to cx7d16effa95bc8de095499c06962864d3f05dca5d --value 1000000000000000000 --key_store ./Tien.json --key_password tien123456 --nid 0x3 --step_limit 1000000000
 ```
